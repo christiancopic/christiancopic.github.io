@@ -1811,7 +1811,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons {
     position: absolute;
-    right: 0;
+    right: 5rem;      /*changed from 0*/
     bottom: 2.1rem;
     text-align: center;
 }
@@ -1907,7 +1907,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-social li {
     position: relative;
-    height: 3.6rem;
+    height: 7rem;
 }
 
 .home-social i, .home-social span {
@@ -1919,7 +1919,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social i {
-    font-size: 1.8rem;
+    font-size: 5rem;
     right: 0;
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
@@ -1928,8 +1928,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-social span {
     color: #af2b2b;
-    right: 3.6rem;
-    font-size: 1.3rem;
+    right: 7rem;
+    font-size: 2.1rem;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0);
